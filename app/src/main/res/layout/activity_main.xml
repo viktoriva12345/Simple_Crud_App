@@ -1,0 +1,59 @@
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextIme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ime" />
+
+    <EditText
+        android:id="@+id/editTextPrezime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Prezime" />
+
+    <EditText
+        android:id="@+id/editTextGodinaUpisa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Godina upisa"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextBrojPoena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Broj poena"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/buttonUnesi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Unesi novog polaznika" />
+
+    <Button
+        android:id="@+id/buttonPrikazi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Prikazi polaznike" />
+
+    <Button
+        android:id="@+id/buttonObrisi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Obrisi polaznike" />
+
+    <TextView
+        android:id="@+id/textViewPolaznici"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
